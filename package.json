@@ -2,7 +2,7 @@
   "name": "vscode-markdown-hako",
   "displayName": "Markdown Hako",
   "description": "便利なMarkdown用プラグインを一括導入できるVSCode拡張機能です。",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.96.0"
   },
