@@ -1,8 +1,8 @@
-# Markdown Box
-![GitHub License](https://img.shields.io/github/license/yusu79/vscode-markdown-info)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/yusu79.vscode-markdown-box)
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/yusu79.vscode-markdown-box)
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/yusu79.vscode-markdown-box)
+# Markdown Hako
+![GitHub License](https://img.shields.io/github/license/yusu79/vscode-markdown-hako)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/yusu79.vscode-markdown-hako)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/yusu79.vscode-markdown-hako)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/yusu79.vscode-markdown-hako)
 
 便利なMarkdown用プラグインを一括導入できるVSCode拡張機能です。この拡張機能をインストールするだけで、Markdownの編集や表示に役立つ様々な機能を利用できるようになります。
 
@@ -15,7 +15,7 @@
 - [謝辞](#謝辞)
 
 ## インストール
-VScodeのマーケットプレイスで「**Markdown Box**」と入力してください｡
+VScodeのマーケットプレイスで「**Markdown Hako**」と入力してください｡
 
 <p align="center">
 <img src="./images/setup.png"/>
@@ -25,7 +25,7 @@ VScodeのマーケットプレイスで「**Markdown Box**」と入力してく�
 
 ## プラグイン
 
-「Markdown Box」をインストールすることで、下記のプラグインが使用可能となります。各プラグインは設定でON/OFFの切り替えのほか、独自のコンフィグを設定することも可能です。
+「Markdown Hako」をインストールすることで、下記のプラグインが使用可能となります。各プラグインは設定でON/OFFの切り替えのほか、独自のコンフィグを設定することも可能です。
 
 | プラグイン                                                                                   | 入力                       | レンダリング                                           | 説明                       | 
 | -------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------------------------------ | -------------------------- | 
@@ -141,16 +141,16 @@ kbdは「**keyboard（キーボード）**」の略です。`[[ctrl]]+[[shift]]+
 
 ## 設定オプション
 
-markdown-boxには2つの設定があります。
+markdown-hakoには2つの設定があります。
 
 
 ### 1. プラグインのON/OFF機能
-- `Markdown-box > Markdown-it-〇〇: Enable`（デフォルト: true）
+- `Markdown-hako > Markdown-it-〇〇: Enable`（デフォルト: true）
   - **true（チェック）** : プラグインが有効となり、Markdownプレビューに反映されます
   - **false（チェックを外す）** : プラグインは無効になり、Markdownプレビューに反映されなくなります
 
 ### 2. プラグインのオプション設定機能
-- `Markdown-box > Markdown-it-〇〇: Options`（デフォルト: 各プラグインで異なります）
+- `Markdown-hako > Markdown-it-〇〇: Options`（デフォルト: 各プラグインで異なります）
   - **settings.json で編集** : 各プラグインの詳細設定を編集できます
 
 各プラグインを独自の設定にしたい場合は`settings.json で編集`をクリックします。

@@ -4,7 +4,7 @@ const
     {plugins} = require("./src/external/plugins");
 
 
-exports.outputPanel = vscode.window.createOutputChannel("Markdown Box");  // エラーメッセージを出力するパネル
+exports.outputPanel = vscode.window.createOutputChannel("Markdown Hako");  // エラーメッセージを出力するパネル
 
 function activate(context) {
     context.subscriptions.push(

@@ -2,7 +2,7 @@ const {BaseConfig} = require("./baseConfig");
 
 class GetConfig extends BaseConfig {
     constructor() {
-        super('markdown-box'); // package.jsonの「configuration」を全て格納
+        super('markdown-hako'); // package.jsonの「configuration」を全て格納
     }
 
     onChange() {}
