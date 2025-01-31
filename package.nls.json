@@ -1,0 +1,20 @@
+{
+    "markdown-box.markdown-it-attrs.enable": "Enables the feature to add custom attributes to elements. Removes custom IDs in {#id} format from the preview screen and applies them when converting to HTML.",
+    "markdown-box.markdown-it-attrs.options": "Configure detailed settings for the markdown-it-attrs plugin.",
+    "markdown-box.markdown-it-table-of-contents.enable": "Automatically detects headings in the document and generates a hierarchical table of contents. Facilitates navigation.",
+    "markdown-box.markdown-it-table-of-contents.options": "Configure detailed settings for the markdown-it-table-of-contents plugin.",
+    "markdown-box.markdown-it-footnote.enable": "Enables the footnote feature.",
+    "markdown-box.markdown-it-footnote.options": "Configure detailed settings for the markdown-it-footnote plugin.",
+    "markdown-box.markdown-it-sup.enable": "Enables superscript notation. Easily represent superscript characters used in mathematical formulas and chemical equations.",
+    "markdown-box.markdown-it-sup.options": "Configure detailed settings for the markdown-it-sup plugin.",
+    "markdown-box.markdown-it-sub.enable": "Enables subscript notation. Easily represent subscript characters used in chemical formulas and mathematical notations.",
+    "markdown-box.markdown-it-sub.options": "Configure detailed settings for the markdown-it-sub plugin.",
+    "markdown-box.markdown-it-kbd.enable": "Generates <kbd> tags to represent keyboard key inputs. Useful for explaining shortcut keys and other keyboard operations.",
+    "markdown-box.markdown-it-kbd.options": "Configure detailed settings for the markdown-it-kbd plugin.",
+    "markdown-box.markdown-it-underline.enable": "Enables the feature to underline text. Visually emphasize important parts or sections you want to highlight.",
+    "markdown-box.markdown-it-underline.options": "Configure detailed settings for the markdown-it-underline plugin.",
+    "markdown-box.markdown-it-mark.enable": "Enables the feature to highlight contextually important sections. Uses the <mark> tag to change the background color and emphasize text.",
+    "markdown-box.markdown-it-mark.options": "Configure detailed settings for the markdown-it-mark plugin.",
+    "markdown-box.markdown-it-mojicolor.enable": "Enables the feature to change text color. Visually emphasize specific words or sentences by coloring them.",
+    "markdown-box.markdown-it-mojicolor.options": "Configure detailed settings for the markdown-it-mojicolor plugin."
+}

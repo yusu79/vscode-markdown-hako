@@ -41,100 +41,107 @@ VScodeのマーケットプレイスで「**Markdown Box**」と入力してく�
 
 
 
-### markdown-it-attrs
-
-![](./images/markdown-it-attrs.png)
-
-
-`# タイトル{#カスタムID}`とすると、レビューから`{#カスタムID}`部分は削除されます。また、`<h1 id="カスタムID">タイトル</h1>`のようにIDが付与されてレンダリングされます。
-
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 
 
 ### markdown-it-table-of-contents
-![](./images/markdown-it-table-of-contents.png)
 
 `[[toc]]`と書いた箇所に、自動生成された目次をレンダリングするプラグインです。
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">：  [markdown-it-table-of-contents](https://www.npmjs.com/package/markdown-it-table-of-contents)
 
+![](./images/markdown-it-table-of-contents.png)
 
+<img src="./images/link.png" alt="リンクアイコン" width="12">：  [markdown-it-table-of-contents](https://www.npmjs.com/package/markdown-it-table-of-contents)
 
 
 ### markdown-it-footnote
 
-![](./images/markdown-it-footnote.png)
 
 `テキスト[^1]`及び`[^1]: 脚注`とセットで書くと、文章下部に脚注が出現します。
 
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote) 
+![](./images/markdown-it-footnote.png)
+
+<img src="./images/link.png" alt="リンクアイコン" width="12">： [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote) 
 
 ### markdown-it-sup
 
-![](./images/markdown-it-sup.png)
 
 supは「**Superscript（上付き文字）**」の略です。`x^2^`のように`^`で囲むと、`x<sup>2</sup>`のように`<sup>`タグで囲まれてレンダリングされます。
 
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup)
+
+![](./images/markdown-it-sup.png)
+
+<img src="./images/link.png" alt="リンクアイコン" width="12">： [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup)
 
 ### markdown-it-sub
 
-![](./images/markdown-it-sub.png)
 
 subは「**Subscript（下付き文字）**」の略です。`H~2~O`のように`~`で囲むと`H<sub>2</sub>O`のように`<sub>`タグで囲われてレンダリングされます。
 
+![](./images/markdown-it-sub.png)
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub) 
+<img src="./images/link.png" alt="リンクアイコン" width="12"> ： [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub) 
+
+### markdown-it-attrs
+
+`# タイトル{#カスタムID}`とすると、レビューから`{#カスタムID}`部分は削除されます。また、`<h1 id="カスタムID">タイトル</h1>`のようにIDが付与されてレンダリングされます。
+
+![](./images/markdown-it-attrs.png)
+
+<img src="./images/link.png" alt="リンクアイコン" width="12">： [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 
 ### markdown-it-kbd
 
-![](./images/markdown-it-kbd.png)
 
 kbdは「**keyboard（キーボード）**」の略です。`[[ctrl]]+[[shift]]+[[c]]`のように各文字を`[[]]`で囲むと、`<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>c</kbd>`のように`<kbd>`で囲われてレンダリングされます。
 
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-kbd](https://www.npmjs.com/package/markdown-it-kbd) 
+
+![](./images/markdown-it-kbd.png)
+
+<img src="./images/link.png" alt="リンクアイコン" width="12">： [markdown-it-kbd](https://www.npmjs.com/package/markdown-it-kbd) 
 
 ### markdown-it-underline
 
-![](./images/markdown-it-underline.png)
 
 `_文字_`とすることで`<u>underline</u>`でレンダリングできるプラグインです。`<u>`は以前は単なる下線を引くタグでしたが、HTML5で役割が変更されました。主にスペルミスや綴りの誤りを指摘する用途に使います。
 
 ちなみにこのプラグインを導入しない場合、`_文字_`は`<em>文字</em>`でレンダリングされます。`<em>`は「**強調（emphasis）**」を表現するためのタグです。
 
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-underline](https://www.npmjs.com/package/markdown-it-underline) 
+
+![](./images/markdown-it-underline.png)
+
+<img src="./images/link.png" alt="リンクアイコン" width="12">： [markdown-it-underline](https://www.npmjs.com/package/markdown-it-underline) 
 
 ### markdown-it-mark
 
-![](./images/markdown-it-mark.png)
 
 
 `==文字==`とすることで`<mark>文字</mark>`でレンダリングされるプラグインです。`<mark>`は検索結果を表示する際など、文脈上重要な箇所を強調するために使うタグです。
 
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark)  
+
+![](./images/markdown-it-mark.png)
+
+<img src="./images/link.png" alt="リンクアイコン" width="12">： [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark)  
 
 ### markdown-it-mojicolor
 
-![](./images/markdown-it-mojicolor.png)
 
 `%文字%{黄色}`とすることで、`<span style="color: #ffd900;">文字</span>`のように指定した色がレンダリングされるプラグインです。
 
 
-<img src="./images/link.svg" alt="リンクアイコン" width="12">： [markdown-it-mojicolor](https://www.npmjs.com/package/markdown-it-mojicolor)  
 
 
+![](./images/markdown-it-mojicolor.png)
+
+<img src="./images/link.png" alt="リンクアイコン" width="12">： [markdown-it-mojicolor](https://www.npmjs.com/package/markdown-it-mojicolor)  
 
 ## 設定オプション
 
 markdown-boxには2つの設定があります。
-
-1. プラグインのON/OFF機能
-2. プラグインのオプション設定機能
 
 
 ### 1. プラグインのON/OFF機能

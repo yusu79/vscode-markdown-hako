@@ -1,0 +1,171 @@
+{
+  "name": "vscode-markdown-box",
+  "displayName": "Markdown Box",
+  "description": "便利なMarkdown用プラグインを一括導入できるVSCode拡張機能です。",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "publisher": "yusu79",
+  "author": {
+    "name": "yusu79",
+    "email": "oss@yusu79.com",
+    "url": "https://github.com/yusu79"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yusu79/vscode-markdown-box"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/yusu79"
+  },
+  "icon": "images/icon.png",
+  "private": true,
+  "keywords": [
+    "markdown"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "configuration": {
+      "type": "object",
+      "title": "Markdown Box Configuration",
+      "properties": {
+        "markdown-box.markdown-it-attrs.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-attrs.enable%"
+        },
+        "markdown-box.markdown-it-attrs.options": {
+          "type": "object",
+          "default": {
+            "leftDelimiter": "{",
+            "rightDelimiter": "}",
+            "allowedAttributes": [
+              "id",
+              "class"
+            ]
+          },
+          "description": "%markdown-box.markdown-it-attrs.options%"
+        },
+        "markdown-box.markdown-it-table-of-contents.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-table-of-contents.enable%"
+        },
+        "markdown-box.markdown-it-table-of-contents.options": {
+          "type": "object",
+          "default": {
+            "includeLevel": [
+              2
+            ]
+          },
+          "description": "%markdown-box.markdown-it-table-of-contents.options%"
+        },
+        "markdown-box.markdown-it-footnote.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-footnote.enable%"
+        },
+        "markdown-box.markdown-it-footnote.option": {
+          "type": "object",
+          "default": {},
+          "description": "%markdown-box.markdown-it-footnote.options%"
+        },
+        "markdown-box.markdown-it-sup.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-sup.enable%"
+        },
+        "markdown-box.markdown-it-sup.option": {
+          "type": "object",
+          "default": {},
+          "description": "%markdown-box.markdown-it-sup.options%"
+        },
+        "markdown-box.markdown-it-sub.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-sub.enable%"
+        },
+        "markdown-box.markdown-it-sub.option": {
+          "type": "object",
+          "default": {},
+          "description": "%markdown-box.markdown-it-sub.options%"
+        },
+        "markdown-box.markdown-it-kbd.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-kbd.enable%"
+        },
+        "markdown-box.markdown-it-kbd.option": {
+          "type": "object",
+          "default": {},
+          "description": "%markdown-box.markdown-it-kbd.options%"
+        },
+        "markdown-box.markdown-it-underline.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-underline.enable%"
+        },
+        "markdown-box.markdown-it-underline.option": {
+          "type": "object",
+          "default": {},
+          "description": "%markdown-box.markdown-it-underline.options%"
+        },
+        "markdown-box.markdown-it-mark.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-mark.enable%"
+        },
+        "markdown-box.markdown-it-mark.option": {
+          "type": "object",
+          "default": {},
+          "description": "%markdown-box.markdown-it-mark.options%"
+        },
+        "markdown-box.markdown-it-mojicolor.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "%markdown-box.markdown-it-mojicolor.enable%"
+        },
+        "markdown-box.markdown-it-mojicolor.option": {
+          "type": "object",
+          "default": {},
+          "description": "%markdown-box.markdown-it-mojicolor.options%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.96.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-kbd": "^2.2.2",
+    "markdown-it-mark": "^4.0.0",
+    "markdown-it-mojicolor": "^1.2.2",
+    "markdown-it-sub": "^2.0.0",
+    "markdown-it-sup": "^2.0.0",
+    "markdown-it-table-of-contents": "^0.9.0",
+    "markdown-it-underline": "^1.0.1"
+  }
+}
