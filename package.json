@@ -49,10 +49,7 @@
           "default": {
             "leftDelimiter": "{",
             "rightDelimiter": "}",
-            "allowedAttributes": [
-              "id",
-              "class"
-            ]
+            "allowedAttributes": []
           },
           "description": "%markdown-hako.markdown-it-attrs.options%"
         },
