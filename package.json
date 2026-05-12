@@ -37,7 +37,7 @@
     "markdown.markdownItPlugins": true,
     "configuration": {
       "type": "object",
-      "title": "Markdown Hako Configuration",
+      "title": "Markdown Hako",
       "properties": {
         "markdown-hako.markdown-it-attrs.enable": {
           "type": "boolean",
